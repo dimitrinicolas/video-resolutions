@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+  - stable
+  - "8"
+
+install:
+  - npm install
+  - npm install -g codecov
+
+after_success:
+  - npm run coverage
+  - codecov
+
+# Telegram bot
+notifications:
+  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify

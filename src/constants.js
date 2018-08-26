@@ -1,0 +1,9 @@
+module.exports = {
+  ASPECTS_LIST: ['storage', 'display', 'pixel'],
+  DEFAULT_ASPECT: 'storage',
+  DEFAULT_PIXEL_ASPECT_RATIO: '1:1',
+  SEARCH_CODE_BOOST: 8,
+  SEARCH_NAME_BOOST: 4,
+  SEARCH_FULL_NAME_BOOST: 2,
+  SEARCH_ALETERNATIVE_NAMES_BOOST: 1
+};

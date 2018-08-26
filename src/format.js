@@ -1,0 +1,67 @@
+const gcd = require('gcd');
+
+const Aspect = require('./aspect.js');
+
+const {
+  ASPECTS_LIST,
+  DEFAULT_ASPECT,
+  DEFAULT_PIXEL_ASPECT_RATIO
+} = require('./constants.js');
+
+/** Class representing an image format */
+class Format {
+  /**
+   * Create a Format
+   * @param {object} [data={}]
+   */
+  constructor(data = {}) {
+    this.code = typeof data.code === 'string' ? data.code : null;
+    this.name = typeof data.name === 'string' ? data.name : null;
+    this.fullName = typeof data.fullName === 'string' ? data.fullName : null;
+    this.alternativeNames = Array.isArray(data.alternativeNames)
+      ? data.alternativeNames
+      : [];
+
+    this.width = typeof data.width === 'number' ? data.width : null;
+    this.height = typeof data.height === 'number' ? data.height : null;
+
+    this.pixelCount = this.width !== null && this.height !== null
+      ? this.width * this.height
+      : null;
+
+    this.aspects = {};
+
+    if (typeof data.aspects !== 'object') {
+      data.aspects = {};
+      data.aspects.pixel = DEFAULT_PIXEL_ASPECT_RATIO;
+      if (this.width !== null && this.height !== null) {
+        const computedGcd = gcd(this.width, this.height);
+        const computedAspect = `${this.width / computedGcd}:${this.height
+          / computedGcd}`;
+        data.aspects.storage = computedAspect;
+        data.aspects.display = computedAspect;
+      } else if (typeof data.aspect === 'string') {
+        data.aspects[DEFAULT_ASPECT] = data.aspect;
+        data.aspects.display = data.aspect;
+      }
+    }
+
+    for (const aspect of ASPECTS_LIST) {
+      this.aspects[aspect] = data.aspects && typeof data.aspects[aspect] === 'string'
+        ? new Aspect(data.aspects[aspect])
+        : null;
+    }
+  }
+
+  get resolution() {
+    return this.width !== null && this.height !== null
+      ? `${this.width}x${this.height}`
+      : null;
+  }
+
+  get aspect() {
+    return this.aspects[DEFAULT_ASPECT];
+  }
+}
+
+module.exports = Format;

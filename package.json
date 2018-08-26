@@ -1,0 +1,40 @@
+{
+  "name": "video-resolutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": "Dimitri NICOLAS <dimitri@fivecorp.fr>",
+  "license": "MIT",
+  "homepage": "https://github.com/dimitrinicolas/video-resolutions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitrinicolas/video-resolutions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dimitrinicolas/video-resolutions/issues"
+  },
+  "keywords": ["video", "resolution", "aspect", "ratio", "dimensions"],
+  "scripts": {
+    "publish": "clean-publish --files .nyc_output coverage",
+    "test": "nyc --reporter=lcov --reporter=text ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "eslint **/*.js",
+    "watch": "npm-watch"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-eslint": "^8.2.6",
+    "clean-publish": "^1.0.9",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "nyc": "^12.0.2"
+  },
+  "dependencies": {
+    "elasticlunr": "^0.9.5",
+    "gcd": "0.0.1"
+  }
+}
