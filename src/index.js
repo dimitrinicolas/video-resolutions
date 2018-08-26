@@ -5,15 +5,6 @@ const {
 } = require('./getters.js');
 const { search, searchOne } = require('./search.js');
 
-// console.log(
-//   getMatchingAspect(
-//     getOne({
-//       width: 4096,
-//       height: 2160
-//     })
-//   )
-// );
-
 module.exports = {
   Aspect,
   Format,
