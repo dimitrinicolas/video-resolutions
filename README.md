@@ -46,14 +46,17 @@ $ npm install -D video-resolutions
 This package export this list of classes and functions:
 
 - `Aspect` - A class representing an aspect-ratio
-- `Format` - A class representing an image format
-- `getList` - Get the list of the 185 formats
-- `getAll` - Get a list of formats matching a query object (eg. a width)
-- `getOne` - Returns the best result of `getAll` or create it
-- `getMatchingAspect` - Get a list of formats matching another format aspect 
+- [`Format`](#format) - A class representing an image format
+- [`getList`](#getlist) - Get the list of the 185 formats
+- [`getAll`](#getallquery) - Get a list of formats matching a query object (eg. 
+a width)
+- [`getOne`](#getonequery-opts) - Returns the best result of `getAll` or create 
+it
+- [`getMatchingAspect`](#getmatchingaspectformat-aspect--storage) - Get a list 
+of formats matching another format aspect 
 ratio
-- `search` - Search a list of formats matching a query string
-- `searchOne` - Returns the best result of `search` or `null`
+- [`search`](#searchquery) - Search a list of formats matching a query string
+- [`searchOne`](#searchonequery) - Returns the best result of `search` or `null`
 
 ### `Format`
 
@@ -247,8 +250,8 @@ This function will return the best result from `searchAll` or `null`.
 
 This project is licensed under the [MIT license](LICENSE).
 
-[travis badge]: https://travis-ci.org/dimitrinicolas/video-resolutions.svg?branch=master
-[travis link]: https://travis-ci.org/dimitrinicolas/video-resolutions
+[travis badge]: https://travis-ci.com/dimitrinicolas/video-resolutions.svg?branch=master
+[travis link]: https://travis-ci.com/dimitrinicolas/video-resolutions
 [coveralls badge]: https://coveralls.io/repos/github/dimitrinicolas/video-resolutions/badge.svg?branch=master
 [coveralls link]: https://coveralls.io/github/dimitrinicolas/video-resolutions?branch=master
 
