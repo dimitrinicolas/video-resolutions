@@ -25,10 +25,6 @@ class Format {
     this.width = typeof data.width === 'number' ? data.width : null;
     this.height = typeof data.height === 'number' ? data.height : null;
 
-    this.pixelCount = this.width !== null && this.height !== null
-      ? this.width * this.height
-      : null;
-
     this.aspects = {};
 
     if (typeof data.aspects !== 'object') {
@@ -59,8 +55,40 @@ class Format {
       : null;
   }
 
+  get pixelCount() {
+    return this.width !== null && this.height !== null
+      ? this.width * this.height
+      : null;
+  }
+
   get aspect() {
     return this.aspects[DEFAULT_ASPECT];
+  }
+
+  setHeight(height) {
+    if (this.width !== null && this.height !== null) {
+      this.width = (this.width / this.height) * height;
+    }
+    if (this.height !== height) {
+      this.code = null;
+      this.name = null;
+      this.fullName = null;
+      this.alternativeNames = [];
+    }
+    this.height = height;
+  }
+
+  setWidth(width) {
+    if (this.width !== null && this.height !== null) {
+      this.height = (this.height / this.width) * width;
+    }
+    if (this.width !== width) {
+      this.code = null;
+      this.name = null;
+      this.fullName = null;
+      this.alternativeNames = [];
+    }
+    this.width = width;
   }
 }
 

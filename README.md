@@ -25,7 +25,6 @@ const compatibleAspects = resolutions.getMatchingAspect(
     alternativeNames: [],
     width: 2048,
     height: 1080,
-    pixelCount: 2211840,
     aspects: {
       storage: Aspect { string: '256:135', float: 1.8962962962962964 },
       display: Aspect { string: '1.90:1', float: 1.9 },
@@ -63,10 +62,16 @@ ratio
 Each format `code` is either an unique string or `null`.
 
 The `Format` class has a getter `resolution` returning a string of the width 
-and height merged around a "×" symbol.
+and height merged around a "×" symbol, and a getter `pixelCount` returning the 
+multiplication of the number of pixels of width and height.
 
 `aspect` is always a shorthand for `aspects.storage`, either as a getter of 
 the `Format` class or in a query object.
+
+You can use the methods `setWidth(width)` and `setHeight(height)` to edit a 
+format width or height. The respectives height or width will be adapted to this 
+change to match the aspect-ratio. By changing width or height, the format will 
+lose its `code`, `name`, `fullName`, and `alternativeNames`.
 
 ### `getList()`
 
@@ -84,7 +89,6 @@ resolutions.getList();
       alternativeNames: [ 'Microvision' ],
       width: 16,
       height: 16,
-      pixelCount: 256,
       aspects: {
         storage: Aspect { string: '1:1', float: 1 },
         display: Aspect { string: '1:1', float: 1 },
@@ -133,7 +137,6 @@ Format {
   alternativeNames: [],
   width: 4096,
   height: 2160,
-  pixelCount: 8847360,
   aspects: {
     storage: Aspect { string: '256:135', float: 1.8962962962962964 },
     display: Aspect { string: '1.90:1', float: 1.9 },
@@ -164,7 +167,6 @@ resolutions.getMatchingAspect(
     alternativeNames: [],
     width: 2048,
     height: 1080,
-    pixelCount: 2211840,
     aspects: {
       storage: Aspect { string: '256:135', float: 1.8962962962962964 },
       display: Aspect { string: '1.90:1', float: 1.9 },
@@ -192,7 +194,6 @@ resolutions.search('4k');
       alternativeNames: [],
       width: 4096,
       height: 2160,
-      pixelCount: 8847360,
       aspects: {
         storage: Aspect { string: '256:135', float: 1.8962962962962964 },
         display: Aspect { string: '1.90:1', float: 1.9 },
@@ -209,7 +210,6 @@ resolutions.search('4k');
       alternativeNames: [ '2160p', '4000-lines UHDTV (4K UHD)' ],
       width: 3840,
       height: 2160,
-      pixelCount: 8294400,
       aspects: {
         storage: Aspect { string: '16:9', float: 1.7777777777777777 },
         display: Aspect { string: '16:9', float: 1.7777777777777777 },
@@ -226,7 +226,6 @@ resolutions.search('4k');
       alternativeNames: [],
       width: 3840,
       height: 1600,
-      pixelCount: 6144000,
       aspects: {
         storage: Aspect { string: '2.35:1', float: 2.35 },
         display: Aspect { string: '2.35:1', float: 2.35 },
