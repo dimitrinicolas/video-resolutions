@@ -106,6 +106,20 @@ class Format {
     }
     return new Format(copy);
   }
+
+  isSameAs(format) {
+    return (
+      this.code === format.code
+      && this.name === format.name
+      && this.fullName === format.fullName
+      && this.alternativeNames.join(', ') === format.alternativeNames.join(', ')
+      && this.width === format.width
+      && this.height === format.height
+      && this.aspects.storage.string === format.aspects.storage.string
+      && this.aspects.display.string === format.aspects.display.string
+      && this.aspects.pixel.string === format.aspects.pixel.string
+    );
+  }
 }
 
 module.exports = Format;

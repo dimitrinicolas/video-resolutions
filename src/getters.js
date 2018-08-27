@@ -85,7 +85,7 @@ const getMatchingAspect = (format, aspect = DEFAULT_ASPECT) => {
   };
   query.aspects[aspect] = format.aspects[aspect].string;
   const result = getAll(query);
-  return result.filter(item => format !== item);
+  return result.filter(item => !format.isSameAs(item));
 };
 
 module.exports = {
