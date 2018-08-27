@@ -1,6 +1,10 @@
 # Change Log
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.2.3 - 2018-08-27
+### Removed
+- Debug code.
+
 ## 1.2.2 - 2018-08-27
 ### Changed
 - When editing width or height, it will look for matching names.
@@ -17,7 +21,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Changed
 - All getters and searchers now return copy of database item.
 ### Removed
-- Debug script.
+- Debug code.
 
 ## 1.1.0 - 2018-08-27
 ### Added

@@ -101,7 +101,7 @@ test('Format.setWidth', async t => {
   });
   format.setWidth(1920 * 2);
 
-  t.is(format.code, null);
+  t.is(format.code, '4K_UHD_1');
   t.is(format.width, 1920 * 2);
   t.is(format.height, 1080 * 2);
 });
@@ -132,7 +132,7 @@ test('Format.setHeight', async t => {
   });
   format.setHeight(1080 * 2);
 
-  t.is(format.code, null);
+  t.is(format.code, '4K_UHD_1');
   t.is(format.width, 1920 * 2);
   t.is(format.height, 1080 * 2);
 });
