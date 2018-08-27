@@ -90,6 +90,22 @@ class Format {
     }
     this.width = width;
   }
+
+  duplicate() {
+    const copy = {
+      code: this.code,
+      name: this.name,
+      fullName: this.fullName,
+      alternativeNames: this.alternativeNames,
+      width: this.width,
+      height: this.height,
+      aspects: {}
+    };
+    for (const aspect of ASPECTS_LIST) {
+      copy.aspects[aspect] = this.aspects[aspect].string;
+    }
+    return new Format(copy);
+  }
 }
 
 module.exports = Format;

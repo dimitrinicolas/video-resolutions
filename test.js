@@ -2,11 +2,13 @@ import test from 'ava';
 
 import resolutions from '.';
 
+const FORMAT_COUNTS = 183;
+
 /* List */
 
 test('getList', async t => {
   const list = resolutions.getList();
-  t.is(list.length, 185);
+  t.is(list.length, FORMAT_COUNTS);
 });
 
 test('unique code', async t => {
@@ -18,6 +20,22 @@ test('unique code', async t => {
         codeList.push(item.code);
       } else {
         t.fail(item.code);
+        return;
+      }
+    }
+  }
+  t.pass();
+});
+
+test('unique resolutions', async t => {
+  const resolutionsList = [];
+  const list = resolutions.getList();
+  for (const item of list) {
+    if (item.resolution !== null) {
+      if (resolutionsList.indexOf(item.resolution) === -1) {
+        resolutionsList.push(item.resolution);
+      } else {
+        t.fail(JSON.stringify(item, 0, 2));
         return;
       }
     }
@@ -61,6 +79,83 @@ test('Format.resolution no dimension', async t => {
   t.is(format.resolution, null);
 });
 
+test('Format.pixelCount', async t => {
+  const format = new resolutions.Format({
+    width: 1920,
+    height: 1080
+  });
+  t.is(format.pixelCount, 1920 * 1080);
+});
+
+test('Format.pixelCount no dimension', async t => {
+  const format = new resolutions.Format({
+    aspect: '16:9'
+  });
+  t.is(format.pixelCount, null);
+});
+
+test('Format.setWidth', async t => {
+  const format = resolutions.getOne({
+    width: 1920,
+    height: 1080
+  });
+  format.setWidth(1920 * 2);
+
+  t.is(format.code, null);
+  t.is(format.width, 1920 * 2);
+  t.is(format.height, 1080 * 2);
+});
+
+test('Format.setWidth same', async t => {
+  const format = resolutions.searchOne('FHD');
+  format.setWidth(format.width);
+
+  t.not(format.code, null);
+  t.is(format.width, 1920);
+  t.is(format.height, 1080);
+});
+
+test('Format.setWidth no ratio', async t => {
+  const format = new resolutions.Format({
+    width: 1920
+  });
+  format.setWidth(1920 * 2);
+
+  t.is(format.width, 1920 * 2);
+  t.is(format.height, null);
+});
+
+test('Format.setHeight', async t => {
+  const format = resolutions.getOne({
+    width: 1920,
+    height: 1080
+  });
+  format.setHeight(1080 * 2);
+
+  t.is(format.code, null);
+  t.is(format.width, 1920 * 2);
+  t.is(format.height, 1080 * 2);
+});
+
+test('Format.setHeight same', async t => {
+  const format = resolutions.searchOne('FHD');
+  format.setHeight(format.height);
+
+  t.not(format.code, null);
+  t.is(format.width, 1920);
+  t.is(format.height, 1080);
+});
+
+test('Format.setHeight no ratio', async t => {
+  const format = new resolutions.Format({
+    height: 1080
+  });
+  format.setHeight(1080 * 2);
+
+  t.is(format.height, 1080 * 2);
+  t.is(format.width, null);
+});
+
 /* getAll */
 
 test('getAll', async t => {
@@ -79,7 +174,7 @@ test('getAll', async t => {
 
 test('getAll no param', async t => {
   const res = resolutions.getAll();
-  t.is(res.length, 185);
+  t.is(res.length, FORMAT_COUNTS);
 });
 
 /* getOne */

@@ -46,7 +46,7 @@ This package export this list of classes and functions:
 
 - `Aspect` - A class representing an aspect-ratio
 - [`Format`](#format) - A class representing an image format
-- [`getList`](#getlist) - Get the list of the 185 formats
+- [`getList`](#getlist) - Get the list of the 183 formats
 - [`getAll`](#getallquery) - Get a list of formats matching a query object (eg. 
 a width)
 - [`getOne`](#getonequery-opts) - Returns the best result of `getAll` or create 
@@ -57,9 +57,14 @@ ratio
 - [`search`](#searchquery) - Search a list of formats matching a query string
 - [`searchOne`](#searchonequery) - Returns the best result of `search` or `null`
 
+**Notice:** All the getters and searchers results are always a copy of database 
+items so you can edit them without damaging database data.
+
 ### `Format`
 
 Each format `code` is either an unique string or `null`.
+
+Each format `resolution` unique.
 
 The `Format` class has a getter `resolution` returning a string of the width 
 and height merged around a "×" symbol, and a getter `pixelCount` returning the 
@@ -97,7 +102,7 @@ resolutions.getList();
     },
     score: 20.509185851025467
   },
-  /* 184 other items */
+  /* 182 other items */
 ]
 ```
 

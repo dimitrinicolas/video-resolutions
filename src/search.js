@@ -48,7 +48,7 @@ const search = query => {
     });
     for (const item of searchRes) {
       res.push({
-        format: list[parseInt(item.ref, 10)],
+        format: list[parseInt(item.ref, 10)].duplicate(),
         score: item.score
       });
     }

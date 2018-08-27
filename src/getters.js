@@ -6,7 +6,13 @@ const { DEFAULT_ASPECT } = require('./constants.js');
 /**
  * Get the full formats list
  */
-const getList = () => list;
+const getList = () => {
+  const res = [];
+  for (const format of list) {
+    res.push(format.duplicate());
+  }
+  return res;
+};
 
 /**
  * Get a list of matching formats
@@ -14,8 +20,8 @@ const getList = () => list;
  */
 const getAll = (query = {}) => {
   const res = [];
-  for (const item of list) {
-    res.push(item);
+  for (const format of list) {
+    res.push(format.duplicate());
   }
   const result = res.filter(item => {
     for (const cat of Object.keys(query)) {

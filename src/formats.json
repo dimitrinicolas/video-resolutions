@@ -172,20 +172,11 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["First graphing calculators: Casio fx-7000G", "TI-81"],
-    "width": 96,
-    "height": 64,
-    "aspects": {
-      "storage": "3:2",
-      "display": "3:2",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Pokémon mini"],
+    "alternativeNames": [
+      "First graphing calculators: Casio fx-7000G",
+      "TI-81",
+      "Pokémon mini"
+    ],
     "width": 96,
     "height": 64,
     "aspects": {
@@ -1580,20 +1571,7 @@
     "code": "WSXGA",
     "name": "Wide SXGA",
     "fullName": "Wide SXGA (WSXGA)",
-    "alternativeNames": [],
-    "width": 1440,
-    "height": 900,
-    "aspects": {
-      "storage": "8:5",
-      "display": "8:5",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "WXGA_P",
-    "name": "Wide XGA+",
-    "fullName": "Wide XGA+ (WXGA+)",
-    "alternativeNames": [],
+    "alternativeNames": ["Wide XGA+", "Wide XGA+ (WXGA+)"],
     "width": 1440,
     "height": 900,
     "aspects": {
