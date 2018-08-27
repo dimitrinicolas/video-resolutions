@@ -1,6 +1,10 @@
 # Change Log
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.2.2 - 2018-08-27
+### Changed
+- When editing width or height, it will look for matching names.
+
 ## 1.2.1 - 2018-08-27
 ### Fixed
 - getMatchingAspect duplicates.

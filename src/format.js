@@ -1,5 +1,7 @@
 const gcd = require('gcd');
 
+const formats = require('./formats.json');
+
 const Aspect = require('./aspect.js');
 
 const {
@@ -66,29 +68,65 @@ class Format {
   }
 
   setHeight(height) {
+    const newHeight = Math.round(height);
     if (this.width !== null && this.height !== null) {
-      this.width = (this.width / this.height) * height;
+      this.width = Math.round((this.width / this.height) * newHeight);
     }
-    if (this.height !== height) {
+    if (this.height !== newHeight) {
       this.code = null;
       this.name = null;
       this.fullName = null;
       this.alternativeNames = [];
+      for (const format of formats) {
+        if (
+          this.width === format.width
+          && newHeight === format.height
+          && (this.aspects.storage === null
+            || this.aspects.storage.string === format.aspects.storage)
+          && (this.aspects.display === null
+            || this.aspects.display.string === format.aspects.display)
+          && (this.aspects.pixel === null
+            || this.aspects.pixel.string === format.aspects.pixel)
+        ) {
+          this.code = format.code;
+          this.name = format.name;
+          this.fullName = format.fullName;
+          this.alternativeNames = format.alternativeNames;
+        }
+      }
     }
-    this.height = height;
+    this.height = newHeight;
   }
 
   setWidth(width) {
+    const newWidth = Math.round(width);
     if (this.width !== null && this.height !== null) {
-      this.height = (this.height / this.width) * width;
+      this.height = Math.round((this.height / this.width) * newWidth);
     }
-    if (this.width !== width) {
+    if (this.width !== newWidth) {
       this.code = null;
       this.name = null;
       this.fullName = null;
       this.alternativeNames = [];
+      for (const format of formats) {
+        if (
+          newWidth === format.width
+          && this.height === format.height
+          && (this.aspects.storage === null
+            || this.aspects.storage.string === format.aspects.storage)
+          && (this.aspects.display === null
+            || this.aspects.display.string === format.aspects.display)
+          && (this.aspects.pixel === null
+            || this.aspects.pixel.string === format.aspects.pixel)
+        ) {
+          this.code = format.code;
+          this.name = format.name;
+          this.fullName = format.fullName;
+          this.alternativeNames = format.alternativeNames;
+        }
+      }
     }
-    this.width = width;
+    this.width = newWidth;
   }
 
   duplicate() {

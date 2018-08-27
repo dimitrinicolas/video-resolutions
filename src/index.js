@@ -15,3 +15,14 @@ module.exports = {
   search,
   searchOne
 };
+
+const format = getOne({
+  width: 4096,
+  height: 2160
+});
+
+console.log(format);
+
+format.setHeight(1080);
+
+console.log(format);

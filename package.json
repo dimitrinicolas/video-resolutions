@@ -1,6 +1,6 @@
 {
   "name": "video-resolutions",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Search into a local database of 183 video resolutions and aspect-ratio",
   "main": "src/index.js",
   "author": "Dimitri NICOLAS <dimitri@fivecorp.fr>",
