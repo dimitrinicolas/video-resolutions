@@ -43,6 +43,20 @@ test('unique resolutions', async t => {
   t.pass();
 });
 
+test('properly sorted', async t => {
+  const list = resolutions.getList();
+  for (let i = 1, len = list.length; i < len; i++) {
+    if (
+      list[i].height < list[i - 1].height
+      || (list[i].height === list[i - 1].height
+        && list[i].width < list[i - 1].width)
+    ) {
+      t.fail(JSON.stringify([i - 1, list[i - 1], list[i]], 0, 2));
+    }
+  }
+  t.pass();
+});
+
 /* Aspect */
 
 test('Aspect no param', async t => {

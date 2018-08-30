@@ -3,19 +3,6 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Microvision"],
-    "width": 16,
-    "height": 16,
-    "aspects": {
-      "storage": "1:1",
-      "display": "1:1",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
     "alternativeNames": ["Timex Datalink USB"],
     "width": 42,
     "height": 11,
@@ -29,9 +16,9 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["PocketStation"],
-    "width": 32,
-    "height": 32,
+    "alternativeNames": ["Microvision"],
+    "width": 16,
+    "height": 16,
     "aspects": {
       "storage": "1:1",
       "display": "1:1",
@@ -48,6 +35,19 @@
     "aspects": {
       "storage": "4:3",
       "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["PocketStation"],
+    "width": 32,
+    "height": 32,
+    "aspects": {
+      "storage": "1:1",
+      "display": "1:1",
       "pixel": "1:1"
     }
   },
@@ -81,12 +81,38 @@
     "code": null,
     "name": null,
     "fullName": null,
+    "alternativeNames": ["Montblanc e-Strap"],
+    "width": 128,
+    "height": 36,
+    "aspects": {
+      "storage": "32:9",
+      "display": "1:1",
+      "pixel": "0.281"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
     "alternativeNames": ["Etch A Sketch Animator 2000"],
     "width": 60,
     "height": 40,
     "aspects": {
       "storage": "3:2",
       "display": "3:2",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Entex Adventure Vision"],
+    "width": 150,
+    "height": 40,
+    "aspects": {
+      "storage": "15:4",
+      "display": "3.75",
       "pixel": "1:1"
     }
   },
@@ -101,6 +127,19 @@
       "storage": "7:4",
       "display": "2:1",
       "pixel": "1.143"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["TRS-80"],
+    "width": 128,
+    "height": 48,
+    "aspects": {
+      "storage": "8:3",
+      "display": "3:2",
+      "pixel": "0.563"
     }
   },
   {
@@ -133,19 +172,6 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Montblanc e-Strap"],
-    "width": 128,
-    "height": 36,
-    "aspects": {
-      "storage": "32:9",
-      "display": "1:1",
-      "pixel": "0.281"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
     "alternativeNames": ["Epoch Game Pocket Computer"],
     "width": 75,
     "height": 64,
@@ -153,19 +179,6 @@
       "storage": "75:64",
       "display": "1:1",
       "pixel": "1:1.171875"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Entex Adventure Vision"],
-    "width": 150,
-    "height": 40,
-    "aspects": {
-      "storage": "15:4",
-      "display": "3.75",
-      "pixel": "1:1"
     }
   },
   {
@@ -189,13 +202,26 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["TRS-80"],
-    "width": 128,
-    "height": 48,
+    "alternativeNames": ["Ruputer"],
+    "width": 102,
+    "height": 64,
     "aspects": {
-      "storage": "8:3",
-      "display": "3:2",
-      "pixel": "0.563"
+      "storage": "51:32",
+      "display": "8:5",
+      "pixel": "1.004"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Atari Portfolio", "TRS-80 Model 100"],
+    "width": 240,
+    "height": 64,
+    "aspects": {
+      "storage": "15:4",
+      "display": "3.75",
+      "pixel": "1:1"
     }
   },
   {
@@ -209,19 +235,6 @@
       "storage": "96:65",
       "display": "3:2",
       "pixel": "1.016"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Ruputer"],
-    "width": 102,
-    "height": 64,
-    "aspects": {
-      "storage": "51:32",
-      "display": "8:5",
-      "pixel": "1.004"
     }
   },
   {
@@ -258,19 +271,6 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Atari Portfolio", "TRS-80 Model 100"],
-    "width": 240,
-    "height": 64,
-    "aspects": {
-      "storage": "15:4",
-      "display": "3.75",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
     "alternativeNames": ["Atari Lynx"],
     "width": 160,
     "height": 102,
@@ -278,6 +278,19 @@
       "storage": "80:51",
       "display": "8:5",
       "pixel": "1.02"
+    }
+  },
+  {
+    "code": "QQVGA",
+    "name": "Quarter Quarter VGA",
+    "fullName": "Quarter Quarter VGA (QQVGA)",
+    "alternativeNames": [],
+    "width": 160,
+    "height": 120,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
     }
   },
   {
@@ -298,16 +311,16 @@
     }
   },
   {
-    "code": "QQVGA",
-    "name": "Quarter Quarter VGA",
-    "fullName": "Quarter Quarter VGA (QQVGA)",
-    "alternativeNames": [],
-    "width": 160,
-    "height": 120,
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Samsung Gear Fit"],
+    "width": 432,
+    "height": 128,
     "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
+      "storage": "27:8",
+      "display": "1:1",
+      "pixel": "0.296"
     }
   },
   {
@@ -330,12 +343,12 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Pebble E-Paper Watch"],
-    "width": 144,
-    "height": 168,
+    "alternativeNames": ["WonderSwan"],
+    "width": 224,
+    "height": 144,
     "aspects": {
-      "storage": "6:7",
-      "display": "6:7",
+      "storage": "14:9",
+      "display": "14:9",
       "pixel": "1:1"
     }
   },
@@ -366,48 +379,28 @@
     }
   },
   {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [
-      "Apple II HiRes (6 color) and Apple IIe Double HiRes (16 color)",
-      "grouping subpixels"
-    ],
-    "width": 140,
-    "height": 192,
+    "code": "HQVGA",
+    "name": "Half QVGA",
+    "fullName": "Half QVGA (HQVGA)",
+    "alternativeNames": ["Nintendo Game Boy Advance"],
+    "width": 240,
+    "height": 160,
     "aspects": {
-      "storage": "35:48",
-      "display": "4:3",
-      "pixel": "1.828"
+      "storage": "3:2",
+      "display": "3:2",
+      "pixel": "1:1"
     }
   },
   {
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": [
-      "VIC-II multicolor",
-      "IBM PCjr 16-color",
-      "Amstrad CPC"
-    ],
-    "width": 160,
-    "height": 200,
+    "alternativeNames": ["Pebble E-Paper Watch"],
+    "width": 144,
+    "height": 168,
     "aspects": {
-      "storage": "4:5",
-      "display": "4:3",
-      "pixel": "5:3"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["WonderSwan"],
-    "width": 224,
-    "height": 144,
-    "aspects": {
-      "storage": "14:9",
-      "display": "14:9",
+      "storage": "6:7",
+      "display": "6:7",
       "pixel": "1:1"
     }
   },
@@ -428,19 +421,6 @@
     }
   },
   {
-    "code": "HQVGA",
-    "name": "Half QVGA",
-    "fullName": "Half QVGA (HQVGA)",
-    "alternativeNames": ["Nintendo Game Boy Advance"],
-    "width": 240,
-    "height": 160,
-    "aspects": {
-      "storage": "3:2",
-      "display": "3:2",
-      "pixel": "1:1"
-    }
-  },
-  {
     "code": null,
     "name": null,
     "fullName": null,
@@ -457,26 +437,16 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Acorn BBC 20 column modes"],
-    "width": 160,
-    "height": 256,
+    "alternativeNames": [
+      "Apple II HiRes (6 color) and Apple IIe Double HiRes (16 color)",
+      "grouping subpixels"
+    ],
+    "width": 140,
+    "height": 192,
     "aspects": {
-      "storage": "5:8",
+      "storage": "35:48",
       "display": "4:3",
-      "pixel": "2.133"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Nokia 5500 Sport", "Nokia 6230i", "Nokia 8800"],
-    "width": 208,
-    "height": 208,
-    "aspects": {
-      "storage": "1:1",
-      "display": "1:1",
-      "pixel": "1:1"
+      "pixel": "1.828"
     }
   },
   {
@@ -514,45 +484,6 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["MSX2"],
-    "width": 256,
-    "height": 212,
-    "aspects": {
-      "storage": "64:53",
-      "display": "4:3",
-      "pixel": "1.104"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Samsung Gear Fit"],
-    "width": 432,
-    "height": 128,
-    "aspects": {
-      "storage": "27:8",
-      "display": "1:1",
-      "pixel": "0.296"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Apple iPod Nano 6G"],
-    "width": 240,
-    "height": 240,
-    "aspects": {
-      "storage": "1:1",
-      "display": "1:1",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
     "alternativeNames": ["Atari 400/800 PAL"],
     "width": 320,
     "height": 192,
@@ -560,6 +491,36 @@
       "storage": "5:3",
       "display": "5:3",
       "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Apple IIe Double Hires (1 bit per pixel)"],
+    "width": 560,
+    "height": 192,
+    "aspects": {
+      "storage": "35:12",
+      "display": "4:3",
+      "pixel": "0.457"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [
+      "VIC-II multicolor",
+      "IBM PCjr 16-color",
+      "Amstrad CPC"
+    ],
+    "width": 160,
+    "height": 200,
+    "aspects": {
+      "storage": "4:5",
+      "display": "4:3",
+      "pixel": "5:3"
     }
   },
   {
@@ -583,12 +544,31 @@
     }
   },
   {
+    "code": "CGA_640",
+    "name": "Color Graphics Adapter 640",
+    "fullName": "Color Graphics Adapter (CGA)",
+    "alternativeNames": [
+      "Atari ST 4 color",
+      "CGA mono",
+      "Amiga OCS NTSC Hires",
+      "Apple IIGS HiRes",
+      "Nokia Series 80 smartphones"
+    ],
+    "width": 640,
+    "height": 200,
+    "aspects": {
+      "storage": "16:5",
+      "display": "4:3",
+      "pixel": "0.417"
+    }
+  },
+  {
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Elektronika BK"],
-    "width": 256,
-    "height": 256,
+    "alternativeNames": ["Nokia 5500 Sport", "Nokia 6230i", "Nokia 8800"],
+    "width": 208,
+    "height": 208,
     "aspects": {
       "storage": "1:1",
       "display": "1:1",
@@ -612,130 +592,13 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Sega Nomad", "Neo Geo AES"],
-    "width": 320,
-    "height": 224,
+    "alternativeNames": ["MSX2"],
+    "width": 256,
+    "height": 212,
     "aspects": {
-      "storage": "10:7",
-      "display": "3:2",
-      "pixel": "1.05"
-    }
-  },
-  {
-    "code": "QVGA",
-    "name": "Quarter VGA",
-    "fullName": "Quarter VGA (QVGA)",
-    "alternativeNames": ["Mega Drive", "Nintendo 3DS (lower screen)"],
-    "width": 320,
-    "height": 240,
-    "aspects": {
-      "storage": "4:3",
+      "storage": "64:53",
       "display": "4:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Acorn BBC 40 column modes", "Amiga OCS PAL Lowres"],
-    "width": 320,
-    "height": 256,
-    "aspects": {
-      "storage": "5:4",
-      "display": "5:4",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Apple iPod Nano 5G"],
-    "width": 376,
-    "height": 240,
-    "aspects": {
-      "storage": "47:30",
-      "display": "14:9",
-      "pixel": "0.993"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Apple Watch 38mm"],
-    "width": 272,
-    "height": 340,
-    "aspects": {
-      "storage": "4:5",
-      "display": "4:5",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "WQVGA",
-    "name": "Wide QVGA",
-    "fullName": "Wide QVGA (WQVGA)",
-    "alternativeNames": ["Common on Windows Mobile 6 handsets"],
-    "width": 400,
-    "height": 240,
-    "aspects": {
-      "storage": "5:3",
-      "display": "5:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Palm (PDA) HiRes", "Samsung Galaxy Gear"],
-    "width": 320,
-    "height": 320,
-    "aspects": {
-      "storage": "1:1",
-      "display": "1:1",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "WQVGA_432",
-    "name": "Wide QVGA 432",
-    "fullName": "Wide QVGA (WQVGA)",
-    "alternativeNames": ["Apple iPod Nano 7G"],
-    "width": 432,
-    "height": 240,
-    "aspects": {
-      "storage": "9:5",
-      "display": "9:5",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Apple IIe Double Hires (1 bit per pixel)"],
-    "width": 560,
-    "height": 192,
-    "aspects": {
-      "storage": "35:12",
-      "display": "4:3",
-      "pixel": "0.457"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["TurboExpress"],
-    "width": 400,
-    "height": 270,
-    "aspects": {
-      "storage": "40:27",
-      "display": "3:2",
-      "pixel": "1.013"
+      "pixel": "1.104"
     }
   },
   {
@@ -755,13 +618,13 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Common Intermediate Format"],
-    "width": 384,
-    "height": 288,
+    "alternativeNames": ["Sega Nomad", "Neo Geo AES"],
+    "width": 320,
+    "height": 224,
     "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
+      "storage": "10:7",
+      "display": "3:2",
+      "pixel": "1.05"
     }
   },
   {
@@ -782,6 +645,219 @@
     }
   },
   {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Apple iPod Nano 6G"],
+    "width": 240,
+    "height": 240,
+    "aspects": {
+      "storage": "1:1",
+      "display": "1:1",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "QVGA",
+    "name": "Quarter VGA",
+    "fullName": "Quarter VGA (QVGA)",
+    "alternativeNames": ["Mega Drive", "Nintendo 3DS (lower screen)"],
+    "width": 320,
+    "height": 240,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Apple iPod Nano 5G"],
+    "width": 376,
+    "height": 240,
+    "aspects": {
+      "storage": "47:30",
+      "display": "14:9",
+      "pixel": "0.993"
+    }
+  },
+  {
+    "code": "WQVGA",
+    "name": "Wide QVGA",
+    "fullName": "Wide QVGA (WQVGA)",
+    "alternativeNames": ["Common on Windows Mobile 6 handsets"],
+    "width": 400,
+    "height": 240,
+    "aspects": {
+      "storage": "5:3",
+      "display": "5:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "WQVGA_432",
+    "name": "Wide QVGA 432",
+    "fullName": "Wide QVGA (WQVGA)",
+    "alternativeNames": ["Apple iPod Nano 7G"],
+    "width": 432,
+    "height": 240,
+    "aspects": {
+      "storage": "9:5",
+      "display": "9:5",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "HVGA_640",
+    "name": "HVGA 640",
+    "fullName": "HVGA",
+    "alternativeNames": ["Handheld PC"],
+    "width": 640,
+    "height": 240,
+    "aspects": {
+      "storage": "8:3",
+      "display": "8:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [
+      "Nintendo 3DS (upper screen in 3D mode: 2× 400 × 240",
+      "one for each eye)"
+    ],
+    "width": 800,
+    "height": 240,
+    "aspects": {
+      "storage": "10:3",
+      "display": "5:3",
+      "pixel": "0.5"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [
+      "Teletext and Viewdata 40×25 character screens (PAL non-interlaced)"
+    ],
+    "width": 480,
+    "height": 250,
+    "aspects": {
+      "storage": "48:25",
+      "display": "4:3",
+      "pixel": "0.694"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Acorn BBC 20 column modes"],
+    "width": 160,
+    "height": 256,
+    "aspects": {
+      "storage": "5:8",
+      "display": "4:3",
+      "pixel": "2.133"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Elektronika BK"],
+    "width": 256,
+    "height": 256,
+    "aspects": {
+      "storage": "1:1",
+      "display": "1:1",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Acorn BBC 40 column modes", "Amiga OCS PAL Lowres"],
+    "width": 320,
+    "height": 256,
+    "aspects": {
+      "storage": "5:4",
+      "display": "5:4",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Elektronika BK", "Polyplay"],
+    "width": 512,
+    "height": 256,
+    "aspects": {
+      "storage": "2:1",
+      "display": "2:1",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Acorn BBC 80 column modes", "Amiga OCS PAL Hires"],
+    "width": 640,
+    "height": 256,
+    "aspects": {
+      "storage": "5:2",
+      "display": "4:3",
+      "pixel": "0.533"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["TurboExpress"],
+    "width": 400,
+    "height": 270,
+    "aspects": {
+      "storage": "40:27",
+      "display": "3:2",
+      "pixel": "1.013"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Sony PlayStation Portable", "Zune HD", "Neo Geo X"],
+    "width": 480,
+    "height": 272,
+    "aspects": {
+      "storage": "30:17",
+      "display": "16:9",
+      "pixel": "1.007"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Common Intermediate Format"],
+    "width": 384,
+    "height": 288,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
     "code": "QSVGA",
     "name": "Quarter SVGA",
     "fullName": "Quarter SVGA (qSVGA)",
@@ -798,15 +874,188 @@
     "code": null,
     "name": null,
     "fullName": null,
+    "alternativeNames": ["Palm (PDA) HiRes", "Samsung Galaxy Gear"],
+    "width": 320,
+    "height": 320,
+    "aspects": {
+      "storage": "1:1",
+      "display": "1:1",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "HVGA",
+    "name": "HVGA",
+    "fullName": "HVGA",
     "alternativeNames": [
-      "Teletext and Viewdata 40×25 character screens (PAL non-interlaced)"
+      "Palm Tungsten T3",
+      "Apple iPhone",
+      "HTC Dream",
+      "Palm (PDA) HiRES+"
     ],
     "width": 480,
-    "height": 250,
+    "height": 320,
     "aspects": {
-      "storage": "48:25",
+      "storage": "3:2",
+      "display": "3:2",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Nokia Series 90 smartphones (7700", "7710)"],
+    "width": 640,
+    "height": 320,
+    "aspects": {
+      "storage": "2:1",
+      "display": "2:1",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Apple Watch 38mm"],
+    "width": 272,
+    "height": 340,
+    "aspects": {
+      "storage": "4:5",
+      "display": "4:5",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Black & white Macintosh (9\")"],
+    "width": 512,
+    "height": 342,
+    "aspects": {
+      "storage": "256:171",
+      "display": "3:2",
+      "pixel": "1.002"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["HGC"],
+    "width": 720,
+    "height": 348,
+    "aspects": {
+      "storage": "60:29",
       "display": "4:3",
-      "pixel": "0.694"
+      "pixel": "0.644"
+    }
+  },
+  {
+    "code": "EGA",
+    "name": "Enhanced Graphics Adapter",
+    "fullName": "Enhanced Graphics Adapter (EGA)",
+    "alternativeNames": [],
+    "width": 640,
+    "height": 350,
+    "aspects": {
+      "storage": "64:35",
+      "display": "4:3",
+      "pixel": "0.729"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["MDA"],
+    "width": 720,
+    "height": 350,
+    "aspects": {
+      "storage": "72:35",
+      "display": "4:3",
+      "pixel": "0.648"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [
+      "Nokia Series 60 smartphones (E60",
+      "E70",
+      "N80",
+      "N90)"
+    ],
+    "width": 416,
+    "height": 352,
+    "aspects": {
+      "storage": "13:11",
+      "display": "13:11",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Nokia E90 Communicator"],
+    "width": 800,
+    "height": 352,
+    "aspects": {
+      "storage": "25:11",
+      "display": "25:11",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [
+      "nHD",
+      "used by Nokia 5800",
+      "Nokia 5530",
+      "Nokia X6",
+      "Nokia N97",
+      "Nokia N8"
+    ],
+    "width": 640,
+    "height": 360,
+    "aspects": {
+      "storage": "16:9",
+      "display": "16:9",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Apple Lisa"],
+    "width": 720,
+    "height": 364,
+    "aspects": {
+      "storage": "180:91",
+      "display": "4:3",
+      "pixel": "0.674"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [
+      "Macintosh LC (12\")/Color Classic (also selectable in many PC shooters)"
+    ],
+    "width": 512,
+    "height": 384,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
     }
   },
   {
@@ -836,244 +1085,6 @@
     }
   },
   {
-    "code": "CGA_640",
-    "name": "Color Graphics Adapter 640",
-    "fullName": "Color Graphics Adapter (CGA)",
-    "alternativeNames": [
-      "Atari ST 4 color",
-      "CGA mono",
-      "Amiga OCS NTSC Hires",
-      "Apple IIGS HiRes",
-      "Nokia Series 80 smartphones"
-    ],
-    "width": 640,
-    "height": 200,
-    "aspects": {
-      "storage": "16:5",
-      "display": "4:3",
-      "pixel": "0.417"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Sony PlayStation Portable", "Zune HD", "Neo Geo X"],
-    "width": 480,
-    "height": 272,
-    "aspects": {
-      "storage": "30:17",
-      "display": "16:9",
-      "pixel": "1.007"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Elektronika BK", "Polyplay"],
-    "width": 512,
-    "height": 256,
-    "aspects": {
-      "storage": "2:1",
-      "display": "2:1",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [
-      "Nokia Series 60 smartphones (E60",
-      "E70",
-      "N80",
-      "N90)"
-    ],
-    "width": 416,
-    "height": 352,
-    "aspects": {
-      "storage": "13:11",
-      "display": "13:11",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "HVGA",
-    "name": "HVGA",
-    "fullName": "HVGA",
-    "alternativeNames": [
-      "Palm Tungsten T3",
-      "Apple iPhone",
-      "HTC Dream",
-      "Palm (PDA) HiRES+"
-    ],
-    "width": 480,
-    "height": 320,
-    "aspects": {
-      "storage": "3:2",
-      "display": "3:2",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "HVGA_640",
-    "name": "HVGA 640",
-    "fullName": "HVGA",
-    "alternativeNames": ["Handheld PC"],
-    "width": 640,
-    "height": 240,
-    "aspects": {
-      "storage": "8:3",
-      "display": "8:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Acorn BBC 80 column modes", "Amiga OCS PAL Hires"],
-    "width": 640,
-    "height": 256,
-    "aspects": {
-      "storage": "5:2",
-      "display": "4:3",
-      "pixel": "0.533"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Black & white Macintosh (9\")"],
-    "width": 512,
-    "height": 342,
-    "aspects": {
-      "storage": "256:171",
-      "display": "3:2",
-      "pixel": "1.002"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [
-      "Nintendo 3DS (upper screen in 3D mode: 2× 400 × 240",
-      "one for each eye)"
-    ],
-    "width": 800,
-    "height": 240,
-    "aspects": {
-      "storage": "10:3",
-      "display": "5:3",
-      "pixel": "0.5"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [
-      "Macintosh LC (12\")/Color Classic (also selectable in many PC shooters)"
-    ],
-    "width": 512,
-    "height": 384,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Nokia Series 90 smartphones (7700", "7710)"],
-    "width": 640,
-    "height": 320,
-    "aspects": {
-      "storage": "2:1",
-      "display": "2:1",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "EGA",
-    "name": "Enhanced Graphics Adapter",
-    "fullName": "Enhanced Graphics Adapter (EGA)",
-    "alternativeNames": [],
-    "width": 640,
-    "height": 350,
-    "aspects": {
-      "storage": "64:35",
-      "display": "4:3",
-      "pixel": "0.729"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [
-      "nHD",
-      "used by Nokia 5800",
-      "Nokia 5530",
-      "Nokia X6",
-      "Nokia N97",
-      "Nokia N8"
-    ],
-    "width": 640,
-    "height": 360,
-    "aspects": {
-      "storage": "16:9",
-      "display": "16:9",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [
-      "Teletext and Viewdata 40×25 character screens (PAL interlaced)"
-    ],
-    "width": 480,
-    "height": 500,
-    "aspects": {
-      "storage": "24:25",
-      "display": "4:3",
-      "pixel": "1.389"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["HGC"],
-    "width": 720,
-    "height": 348,
-    "aspects": {
-      "storage": "60:29",
-      "display": "4:3",
-      "pixel": "0.644"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["MDA"],
-    "width": 720,
-    "height": 350,
-    "aspects": {
-      "storage": "72:35",
-      "display": "4:3",
-      "pixel": "0.648"
-    }
-  },
-  {
     "code": null,
     "name": null,
     "fullName": null,
@@ -1084,32 +1095,6 @@
       "storage": "8:5",
       "display": "4:3",
       "pixel": "0.833"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Apple Lisa"],
-    "width": 720,
-    "height": 364,
-    "aspects": {
-      "storage": "180:91",
-      "display": "4:3",
-      "pixel": "0.674"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Nokia E90 Communicator"],
-    "width": 800,
-    "height": 352,
-    "aspects": {
-      "storage": "25:11",
-      "display": "25:11",
-      "pixel": "1:1"
     }
   },
   {
@@ -1136,19 +1121,6 @@
       "storage": "4:3",
       "display": "4:3",
       "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Amiga OCS PAL Hires interlaced"],
-    "width": 640,
-    "height": 512,
-    "aspects": {
-      "storage": "5:4",
-      "display": "4:3",
-      "pixel": "1.066"
     }
   },
   {
@@ -1204,16 +1176,31 @@
     }
   },
   {
-    "code": "SVGA",
-    "name": "Super VGA",
-    "fullName": "Super VGA (SVGA)",
-    "alternativeNames": [],
-    "width": 800,
-    "height": 600,
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [
+      "Teletext and Viewdata 40×25 character screens (PAL interlaced)"
+    ],
+    "width": 480,
+    "height": 500,
     "aspects": {
-      "storage": "4:3",
+      "storage": "24:25",
       "display": "4:3",
-      "pixel": "1:1"
+      "pixel": "1.389"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Amiga OCS PAL Hires interlaced"],
+    "width": 640,
+    "height": 512,
+    "aspects": {
+      "storage": "5:4",
+      "display": "4:3",
+      "pixel": "1.066"
     }
   },
   {
@@ -1226,19 +1213,6 @@
     "aspects": {
       "storage": "16:9",
       "display": "16:9",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Apple Macintosh Half Megapixel"],
-    "width": 832,
-    "height": 624,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
       "pixel": "1:1"
     }
   },
@@ -1269,15 +1243,15 @@
     }
   },
   {
-    "code": "DVGA",
-    "name": "Double VGA",
-    "fullName": "Double VGA (DVGA)",
-    "alternativeNames": ["Apple iPhone 4S", "4th Generation iPod Touch"],
-    "width": 960,
-    "height": 640,
+    "code": "SVGA",
+    "name": "Super VGA",
+    "fullName": "Super VGA (SVGA)",
+    "alternativeNames": [],
+    "width": 800,
+    "height": 600,
     "aspects": {
-      "storage": "3:2",
-      "display": "3:2",
+      "storage": "4:3",
+      "display": "4:3",
       "pixel": "1:1"
     }
   },
@@ -1298,12 +1272,25 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Close to WSVGA"],
-    "width": 1024,
+    "alternativeNames": ["Apple Macintosh Half Megapixel"],
+    "width": 832,
+    "height": 624,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "DVGA",
+    "name": "Double VGA",
+    "fullName": "Double VGA (DVGA)",
+    "alternativeNames": ["Apple iPhone 4S", "4th Generation iPod Touch"],
+    "width": 960,
     "height": 640,
     "aspects": {
-      "storage": "8:5",
-      "display": "8:5",
+      "storage": "3:2",
+      "display": "3:2",
       "pixel": "1:1"
     }
   },
@@ -1311,14 +1298,12 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": [
-      "Panasonic DVCPRO100 for 50/60Hz over 720p - SMPTE Resolution"
-    ],
-    "width": 960,
-    "height": 720,
+    "alternativeNames": ["Close to WSVGA"],
+    "width": 1024,
+    "height": 640,
     "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
+      "storage": "8:5",
+      "display": "8:5",
       "pixel": "1:1"
     }
   },
@@ -1341,29 +1326,18 @@
     }
   },
   {
-    "code": "XGA",
-    "name": "Extended Graphics Array",
-    "fullName": "Extended Graphics Array (XGA)",
-    "alternativeNames": ["Common on 14″/15″ TFT's and the Apple iPad"],
-    "width": 1024,
-    "height": 768,
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [
+      "Panasonic DVCPRO100 for 50/60Hz over 720p - SMPTE Resolution"
+    ],
+    "width": 960,
+    "height": 720,
     "aspects": {
       "storage": "4:3",
       "display": "4:3",
       "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Sun-1 monochrome"],
-    "width": 1024,
-    "height": 800,
-    "aspects": {
-      "storage": "32:25",
-      "display": "4:3",
-      "pixel": "1.041"
     }
   },
   {
@@ -1376,19 +1350,6 @@
     "aspects": {
       "storage": "8:5",
       "display": "8:5",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Apple PowerBook G4 (original Titanium version)"],
-    "width": 1152,
-    "height": 768,
-    "aspects": {
-      "storage": "3:2",
-      "display": "3:2",
       "pixel": "1:1"
     }
   },
@@ -1409,13 +1370,39 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["NeXT MegaPixel Display"],
-    "width": 1120,
-    "height": 832,
+    "alternativeNames": ["Apple iPhone 6", "iPhone 6S", "iPhone 7", "iPhone 8"],
+    "width": 1334,
+    "height": 750,
     "aspects": {
-      "storage": "35:26",
+      "storage": "667:375",
+      "display": "16:9",
+      "pixel": "0.999"
+    }
+  },
+  {
+    "code": "XGA",
+    "name": "Extended Graphics Array",
+    "fullName": "Extended Graphics Array (XGA)",
+    "alternativeNames": ["Common on 14″/15″ TFT's and the Apple iPad"],
+    "width": 1024,
+    "height": 768,
+    "aspects": {
+      "storage": "4:3",
       "display": "4:3",
-      "pixel": "0.99"
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Apple PowerBook G4 (original Titanium version)"],
+    "width": 1152,
+    "height": 768,
+    "aspects": {
+      "storage": "3:2",
+      "display": "3:2",
+      "pixel": "1:1"
     }
   },
   {
@@ -1428,74 +1415,6 @@
     "aspects": {
       "storage": "5:3",
       "display": "5:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "XGA_P",
-    "name": "XGA+",
-    "fullName": "XGA+",
-    "alternativeNames": ["Apple XGA[note 2]"],
-    "width": 1152,
-    "height": 864,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Apple iPhone 6", "iPhone 6S", "iPhone 7", "iPhone 8"],
-    "width": 1334,
-    "height": 750,
-    "aspects": {
-      "storage": "667:375",
-      "display": "16:9",
-      "pixel": "0.999"
-    }
-  },
-  {
-    "code": "WXGA_800",
-    "name": "Wide XGA 800",
-    "fullName": "Wide XGA (WXGA)",
-    "alternativeNames": ["Maximum"],
-    "width": 1280,
-    "height": 800,
-    "aspects": {
-      "storage": "8:5",
-      "display": "8:5",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [
-      "Sun-2 Prime Monochrome or Color Video",
-      "also common in Sun-3 and Sun-4 workstations"
-    ],
-    "width": 1152,
-    "height": 900,
-    "aspects": {
-      "storage": "32:25",
-      "display": "32:25",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Network Computing Devices"],
-    "width": 1024,
-    "height": 1024,
-    "aspects": {
-      "storage": "1:1",
-      "display": "1:1",
       "pixel": "1:1"
     }
   },
@@ -1519,6 +1438,58 @@
     "code": null,
     "name": null,
     "fullName": null,
+    "alternativeNames": ["Sony VAIO P series"],
+    "width": 1600,
+    "height": 768,
+    "aspects": {
+      "storage": "25:12",
+      "display": "25:12",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Sun-1 monochrome"],
+    "width": 1024,
+    "height": 800,
+    "aspects": {
+      "storage": "32:25",
+      "display": "4:3",
+      "pixel": "1.041"
+    }
+  },
+  {
+    "code": "WXGA_800",
+    "name": "Wide XGA 800",
+    "fullName": "Wide XGA (WXGA)",
+    "alternativeNames": ["Maximum"],
+    "width": 1280,
+    "height": 800,
+    "aspects": {
+      "storage": "8:5",
+      "display": "8:5",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["NeXT MegaPixel Display"],
+    "width": 1120,
+    "height": 832,
+    "aspects": {
+      "storage": "35:26",
+      "display": "4:3",
+      "pixel": "0.99"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
     "alternativeNames": ["Apple PowerBook G4"],
     "width": 1280,
     "height": 854,
@@ -1526,6 +1497,78 @@
       "storage": "640:427",
       "display": "3:2",
       "pixel": "1.001"
+    }
+  },
+  {
+    "code": "XGA_P",
+    "name": "XGA+",
+    "fullName": "XGA+",
+    "alternativeNames": ["Apple XGA[note 2]"],
+    "width": 1152,
+    "height": 864,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [
+      "Sun-2 Prime Monochrome or Color Video",
+      "also common in Sun-3 and Sun-4 workstations"
+    ],
+    "width": 1152,
+    "height": 900,
+    "aspects": {
+      "storage": "32:25",
+      "display": "32:25",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "WSXGA",
+    "name": "Wide SXGA",
+    "fullName": "Wide SXGA (WSXGA)",
+    "alternativeNames": ["Wide XGA+", "Wide XGA+ (WXGA+)"],
+    "width": 1440,
+    "height": 900,
+    "aspects": {
+      "storage": "8:5",
+      "display": "8:5",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "HD_P",
+    "name": "HD+",
+    "fullName": "HD+",
+    "alternativeNames": ["900p"],
+    "width": 1600,
+    "height": 900,
+    "aspects": {
+      "storage": "16:9",
+      "display": "16:9",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "CWSXGA",
+    "name": "CWSXGA",
+    "fullName": "CWSXGA",
+    "alternativeNames": [
+      "NEC CRV43",
+      "Ostendo CRVD",
+      "Alienware Curved Display"
+    ],
+    "width": 2880,
+    "height": 900,
+    "aspects": {
+      "storage": "16:5",
+      "display": "16:5",
+      "pixel": "1:1"
     }
   },
   {
@@ -1545,12 +1588,12 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Sony VAIO P series"],
-    "width": 1600,
-    "height": 768,
+    "alternativeNames": ["Apple PowerBook G4"],
+    "width": 1440,
+    "height": 960,
     "aspects": {
-      "storage": "25:12",
-      "display": "25:12",
+      "storage": "3:2",
+      "display": "3:2",
       "pixel": "1:1"
     }
   },
@@ -1558,25 +1601,25 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["HTC Vive (per screen)"],
-    "width": 1080,
-    "height": 1200,
+    "alternativeNames": ["Available in some monitors"],
+    "width": 1776,
+    "height": 1000,
     "aspects": {
-      "storage": "9:10",
-      "display": "9:10",
-      "pixel": "1:1"
+      "storage": "222:125",
+      "display": "16:9",
+      "pixel": "1.001"
     }
   },
   {
-    "code": "WSXGA",
-    "name": "Wide SXGA",
-    "fullName": "Wide SXGA (WSXGA)",
-    "alternativeNames": ["Wide XGA+", "Wide XGA+ (WXGA+)"],
-    "width": 1440,
-    "height": 900,
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Network Computing Devices"],
+    "width": 1024,
+    "height": 1024,
     "aspects": {
-      "storage": "8:5",
-      "display": "8:5",
+      "storage": "1:1",
+      "display": "1:1",
       "pixel": "1:1"
     }
   },
@@ -1597,45 +1640,6 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Apple PowerBook G4"],
-    "width": 1440,
-    "height": 960,
-    "aspects": {
-      "storage": "3:2",
-      "display": "3:2",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "HD_P",
-    "name": "HD+",
-    "fullName": "HD+",
-    "alternativeNames": ["900p"],
-    "width": 1600,
-    "height": 900,
-    "aspects": {
-      "storage": "16:9",
-      "display": "16:9",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "SXGA_P",
-    "name": "Super XGA Plus",
-    "fullName": "Super XGA Plus (SXGA+)",
-    "alternativeNames": ["Lenovo Thinkpad X61 Tablet"],
-    "width": 1400,
-    "height": 1050,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
     "alternativeNames": ["Similar to A4 paper format (~123 dpi for A4 size)"],
     "width": 1440,
     "height": 1024,
@@ -1649,25 +1653,25 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["HDV 1080i"],
-    "width": 1440,
-    "height": 1080,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
     "alternativeNames": ["SGI 1600SW"],
     "width": 1600,
     "height": 1024,
     "aspects": {
       "storage": "25:16",
       "display": "25:16",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "SXGA_P",
+    "name": "Super XGA Plus",
+    "fullName": "Super XGA Plus (SXGA+)",
+    "alternativeNames": ["Lenovo Thinkpad X61 Tablet"],
+    "width": 1400,
+    "height": 1050,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
       "pixel": "1:1"
     }
   },
@@ -1688,38 +1692,12 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Available in some monitors"],
-    "width": 1776,
-    "height": 1000,
-    "aspects": {
-      "storage": "222:125",
-      "display": "16:9",
-      "pixel": "1.001"
-    }
-  },
-  {
-    "code": "UXGA",
-    "name": "Ultra XGA",
-    "fullName": "Ultra XGA (UXGA)",
-    "alternativeNames": ["Lenovo Thinkpad T60"],
-    "width": 1600,
-    "height": 1200,
+    "alternativeNames": ["HDV 1080i"],
+    "width": 1440,
+    "height": 1080,
     "aspects": {
       "storage": "4:3",
       "display": "4:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Sun3 Hi-res monochrome"],
-    "width": 1600,
-    "height": 1280,
-    "aspects": {
-      "storage": "5:4",
-      "display": "5:4",
       "pixel": "1:1"
     }
   },
@@ -1750,19 +1728,6 @@
     }
   },
   {
-    "code": "WUXGA",
-    "name": "Wide UXGA",
-    "fullName": "Wide UXGA (WUXGA)",
-    "alternativeNames": [],
-    "width": 1920,
-    "height": 1200,
-    "aspects": {
-      "storage": "8:5",
-      "display": "8:5",
-      "pixel": "1:1"
-    }
-  },
-  {
     "code": null,
     "name": null,
     "fullName": null,
@@ -1772,127 +1737,6 @@
     "aspects": {
       "storage": "18:9",
       "display": "2:1",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "QWXGA",
-    "name": "QWXGA",
-    "fullName": "QWXGA",
-    "alternativeNames": [],
-    "width": 2048,
-    "height": 1152,
-    "aspects": {
-      "storage": "16:9",
-      "display": "16:9",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [],
-    "width": 1792,
-    "height": 1344,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "FHD_P",
-    "name": "Full HD Plus",
-    "fullName": "Full HD Plus (FHD+)",
-    "alternativeNames": ["Microsoft Surface 3"],
-    "width": 1920,
-    "height": 1280,
-    "aspects": {
-      "storage": "3:2",
-      "display": "3:2",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [],
-    "width": 1856,
-    "height": 1392,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [],
-    "width": 1800,
-    "height": 1440,
-    "aspects": {
-      "storage": "5:4",
-      "display": "5:4",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "CWSXGA",
-    "name": "CWSXGA",
-    "fullName": "CWSXGA",
-    "alternativeNames": [
-      "NEC CRV43",
-      "Ostendo CRVD",
-      "Alienware Curved Display"
-    ],
-    "width": 2880,
-    "height": 900,
-    "aspects": {
-      "storage": "16:5",
-      "display": "16:5",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [],
-    "width": 2048,
-    "height": 1280,
-    "aspects": {
-      "storage": "8:5",
-      "display": "8:5",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "TXGA",
-    "name": "Tesselar XGA",
-    "fullName": "Tesselar XGA (TXGA)",
-    "alternativeNames": [],
-    "width": 1920,
-    "height": 1400,
-    "aspects": {
-      "storage": "48:35",
-      "display": "7:5",
-      "pixel": "1.021"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Apple iPhone X"],
-    "width": 2436,
-    "height": 1125,
-    "aspects": {
-      "storage": "812:375",
-      "display": "2.165",
       "pixel": "1:1"
     }
   },
@@ -1907,19 +1751,6 @@
       "storage": "2.35:1",
       "display": "2.35:1",
       "pixel": "1.017"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [],
-    "width": 1920,
-    "height": 1440,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
     }
   },
   {
@@ -1947,9 +1778,87 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Microsoft Surface Pro 3"],
-    "width": 2160,
-    "height": 1440,
+    "alternativeNames": ["Apple iPhone X"],
+    "width": 2436,
+    "height": 1125,
+    "aspects": {
+      "storage": "812:375",
+      "display": "2.165",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "QWXGA",
+    "name": "QWXGA",
+    "fullName": "QWXGA",
+    "alternativeNames": [],
+    "width": 2048,
+    "height": 1152,
+    "aspects": {
+      "storage": "16:9",
+      "display": "16:9",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["HTC Vive (per screen)"],
+    "width": 1080,
+    "height": 1200,
+    "aspects": {
+      "storage": "9:10",
+      "display": "9:10",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "UXGA",
+    "name": "Ultra XGA",
+    "fullName": "Ultra XGA (UXGA)",
+    "alternativeNames": ["Lenovo Thinkpad T60"],
+    "width": 1600,
+    "height": 1200,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "WUXGA",
+    "name": "Wide UXGA",
+    "fullName": "Wide UXGA (WUXGA)",
+    "alternativeNames": [],
+    "width": 1920,
+    "height": 1200,
+    "aspects": {
+      "storage": "8:5",
+      "display": "8:5",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Sun3 Hi-res monochrome"],
+    "width": 1600,
+    "height": 1280,
+    "aspects": {
+      "storage": "5:4",
+      "display": "5:4",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "FHD_P",
+    "name": "Full HD Plus",
+    "fullName": "Full HD Plus (FHD+)",
+    "alternativeNames": ["Microsoft Surface 3"],
+    "width": 1920,
+    "height": 1280,
     "aspects": {
       "storage": "3:2",
       "display": "3:2",
@@ -1957,15 +1866,93 @@
     }
   },
   {
-    "code": "QXGA",
-    "name": "Quad XGA",
-    "fullName": "Quad XGA (QXGA)",
-    "alternativeNames": ["iPad (3rd Generation)"],
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [],
     "width": 2048,
-    "height": 1536,
+    "height": 1280,
+    "aspects": {
+      "storage": "8:5",
+      "display": "8:5",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [],
+    "width": 1792,
+    "height": 1344,
     "aspects": {
       "storage": "4:3",
       "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [],
+    "width": 1856,
+    "height": 1392,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "TXGA",
+    "name": "Tesselar XGA",
+    "fullName": "Tesselar XGA (TXGA)",
+    "alternativeNames": [],
+    "width": 1920,
+    "height": 1400,
+    "aspects": {
+      "storage": "48:35",
+      "display": "7:5",
+      "pixel": "1.021"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [],
+    "width": 1800,
+    "height": 1440,
+    "aspects": {
+      "storage": "5:4",
+      "display": "5:4",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [],
+    "width": 1920,
+    "height": 1440,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Microsoft Surface Pro 3"],
+    "width": 2160,
+    "height": 1440,
+    "aspects": {
+      "storage": "3:2",
+      "display": "3:2",
       "pixel": "1:1"
     }
   },
@@ -1986,19 +1973,6 @@
     }
   },
   {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Surface Laptop"],
-    "width": 2256,
-    "height": 1504,
-    "aspects": {
-      "storage": "3:2",
-      "display": "8:5",
-      "pixel": "1.067"
-    }
-  },
-  {
     "code": "QHD",
     "name": "Quad HD",
     "fullName": "Quad HD (QHD)",
@@ -2012,43 +1986,6 @@
     "aspects": {
       "storage": "16:9",
       "display": "16:9",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [],
-    "width": 2304,
-    "height": 1728,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "WQXGA",
-    "name": "Wide QXGA",
-    "fullName": "Wide QXGA (WQXGA)",
-    "alternativeNames": [
-      "Apple Cinema HD 30",
-      "Apple 13\" MacBook Pro's Retina Display",
-      "Dell Ultrasharp U3011",
-      "Dell 3007WFP",
-      "Dell 3008WFP",
-      "Gateway XHD3000",
-      "Samsung 305T",
-      "HP LP3065",
-      "HP ZR30W",
-      "Nexus 10"
-    ],
-    "width": 2560,
-    "height": 1600,
-    "aspects": {
-      "storage": "8:5",
-      "display": "8:5",
       "pixel": "1:1"
     }
   },
@@ -2085,61 +2022,6 @@
     }
   },
   {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Chromebook Pixel"],
-    "width": 2560,
-    "height": 1700,
-    "aspects": {
-      "storage": "128:85",
-      "display": "3:2",
-      "pixel": "0.996"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Pixel C"],
-    "width": 2560,
-    "height": 1800,
-    "aspects": {
-      "storage": "64:45",
-      "display": "64:45",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": ["Lenovo Thinkpad W541"],
-    "width": 2880,
-    "height": 1620,
-    "aspects": {
-      "storage": "16:9",
-      "display": "8:5",
-      "pixel": "0.9"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
-    "alternativeNames": [
-      "Max. CRT resolution",
-      "supported by the Viewsonic P225f and some graphics cards"
-    ],
-    "width": 2560,
-    "height": 1920,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
-    }
-  },
-  {
     "code": "ULTRA_WIDE_QHD",
     "name": "Ultra-Wide QHD",
     "fullName": "Ultra-Wide QHD",
@@ -2161,12 +2043,114 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Microsoft Surface Pro 4"],
-    "width": 2736,
-    "height": 1824,
+    "alternativeNames": ["Surface Laptop"],
+    "width": 2256,
+    "height": 1504,
     "aspects": {
       "storage": "3:2",
+      "display": "8:5",
+      "pixel": "1.067"
+    }
+  },
+  {
+    "code": "QXGA",
+    "name": "Quad XGA",
+    "fullName": "Quad XGA (QXGA)",
+    "alternativeNames": ["iPad (3rd Generation)"],
+    "width": 2048,
+    "height": 1536,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "WQXGA",
+    "name": "Wide QXGA",
+    "fullName": "Wide QXGA (WQXGA)",
+    "alternativeNames": [
+      "Apple Cinema HD 30",
+      "Apple 13\" MacBook Pro's Retina Display",
+      "Dell Ultrasharp U3011",
+      "Dell 3007WFP",
+      "Dell 3008WFP",
+      "Gateway XHD3000",
+      "Samsung 305T",
+      "HP LP3065",
+      "HP ZR30W",
+      "Nexus 10"
+    ],
+    "width": 2560,
+    "height": 1600,
+    "aspects": {
+      "storage": "8:5",
+      "display": "8:5",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "UW4K",
+    "name": "Ultra-Wide 4K",
+    "fullName": "Ultra-Wide 4K (UW4K)",
+    "alternativeNames": [],
+    "width": 3840,
+    "height": 1600,
+    "aspects": {
+      "storage": "2.35:1",
+      "display": "2.35:1",
+      "pixel": "0.996"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Lenovo Thinkpad W541"],
+    "width": 2880,
+    "height": 1620,
+    "aspects": {
+      "storage": "16:9",
+      "display": "8:5",
+      "pixel": "0.9"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Chromebook Pixel"],
+    "width": 2560,
+    "height": 1700,
+    "aspects": {
+      "storage": "128:85",
       "display": "3:2",
+      "pixel": "0.996"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [],
+    "width": 2304,
+    "height": 1728,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Pixel C"],
+    "width": 2560,
+    "height": 1800,
+    "aspects": {
+      "storage": "64:45",
+      "display": "64:45",
       "pixel": "1:1"
     }
   },
@@ -2180,6 +2164,65 @@
     "aspects": {
       "storage": "8:5",
       "display": "8:5",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "WQXGA_P",
+    "name": "Wide QXGA+",
+    "fullName": "Wide QXGA+ (WQXGA+)",
+    "alternativeNames": [
+      "HP Envy TouchSmart 14",
+      "Fujitsu Lifebook UH90/L",
+      "Lenovo Yoga 2 Pro"
+    ],
+    "width": 3200,
+    "height": 1800,
+    "aspects": {
+      "storage": "16:9",
+      "display": "16:9",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Microsoft Surface Pro 4"],
+    "width": 2736,
+    "height": 1824,
+    "aspects": {
+      "storage": "3:2",
+      "display": "3:2",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": [
+      "Max. CRT resolution",
+      "supported by the Viewsonic P225f and some graphics cards"
+    ],
+    "width": 2560,
+    "height": 1920,
+    "aspects": {
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": null,
+    "name": null,
+    "fullName": null,
+    "alternativeNames": ["Microsoft Surface Book"],
+    "width": 3000,
+    "height": 2000,
+    "aspects": {
+      "storage": "3:2",
+      "display": "3:2",
       "pixel": "1:1"
     }
   },
@@ -2210,19 +2253,15 @@
     }
   },
   {
-    "code": "WQXGA_P",
-    "name": "Wide QXGA+",
-    "fullName": "Wide QXGA+ (WQXGA+)",
-    "alternativeNames": [
-      "HP Envy TouchSmart 14",
-      "Fujitsu Lifebook UH90/L",
-      "Lenovo Yoga 2 Pro"
-    ],
+    "code": "WQSXGA",
+    "name": "Wide QSXGA",
+    "fullName": "Wide QSXGA (WQSXGA)",
+    "alternativeNames": [],
     "width": 3200,
-    "height": 1800,
+    "height": 2048,
     "aspects": {
-      "storage": "16:9",
-      "display": "16:9",
+      "storage": "25:16",
+      "display": "25:16",
       "pixel": "1:1"
     }
   },
@@ -2243,64 +2282,12 @@
     "code": null,
     "name": null,
     "fullName": null,
-    "alternativeNames": ["Microsoft Surface Book"],
-    "width": 3000,
-    "height": 2000,
-    "aspects": {
-      "storage": "3:2",
-      "display": "3:2",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "UW4K",
-    "name": "Ultra-Wide 4K",
-    "fullName": "Ultra-Wide 4K (UW4K)",
-    "alternativeNames": [],
-    "width": 3840,
-    "height": 1600,
-    "aspects": {
-      "storage": "2.35:1",
-      "display": "2.35:1",
-      "pixel": "0.996"
-    }
-  },
-  {
-    "code": "WQSXGA",
-    "name": "Wide QSXGA",
-    "fullName": "Wide QSXGA (WQSXGA)",
-    "alternativeNames": [],
-    "width": 3200,
-    "height": 2048,
-    "aspects": {
-      "storage": "25:16",
-      "display": "25:16",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": null,
-    "name": null,
-    "fullName": null,
     "alternativeNames": ["Microsoft Surface Book 2 15\""],
     "width": 3240,
     "height": 2160,
     "aspects": {
       "storage": "3:2",
       "display": "3:2",
-      "pixel": "1:1"
-    }
-  },
-  {
-    "code": "QUXGA",
-    "name": "Quad UXGA",
-    "fullName": "Quad UXGA (QUXGA)",
-    "alternativeNames": [],
-    "width": 3200,
-    "height": 2400,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
       "pixel": "1:1"
     }
   },
@@ -2331,19 +2318,6 @@
     }
   },
   {
-    "code": "WQUXGA",
-    "name": "Wide QUXGA",
-    "fullName": "Wide QUXGA (WQUXGA)",
-    "alternativeNames": ["IBM T221"],
-    "width": 3840,
-    "height": 2400,
-    "aspects": {
-      "storage": "8:5",
-      "display": "8:5",
-      "pixel": "1:1"
-    }
-  },
-  {
     "code": "UW5K",
     "name": "Ultra-Wide 5K",
     "fullName": "Ultra-Wide 5K (UW5K)",
@@ -2357,15 +2331,41 @@
     }
   },
   {
-    "code": "HXGA",
-    "name": "Hex XGA",
-    "fullName": "Hex XGA (HXGA)",
+    "code": "QUXGA",
+    "name": "Quad UXGA",
+    "fullName": "Quad UXGA (QUXGA)",
     "alternativeNames": [],
-    "width": 4096,
-    "height": 3072,
+    "width": 3200,
+    "height": 2400,
     "aspects": {
       "storage": "4:3",
       "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "WQUXGA",
+    "name": "Wide QUXGA",
+    "fullName": "Wide QUXGA (WQUXGA)",
+    "alternativeNames": ["IBM T221"],
+    "width": 3840,
+    "height": 2400,
+    "aspects": {
+      "storage": "8:5",
+      "display": "8:5",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "5K",
+    "name": "5K",
+    "fullName": "5K",
+    "alternativeNames": ["Dell UP2715K", "Apple 27\" iMac 5K Retina Display"],
+    "width": 5120,
+    "height": 2880,
+    "aspects": {
+      "storage": "16:9",
+      "display": "16:9",
       "pixel": "1:1"
     }
   },
@@ -2383,15 +2383,15 @@
     }
   },
   {
-    "code": "5K",
-    "name": "5K",
-    "fullName": "5K",
-    "alternativeNames": ["Dell UP2715K", "Apple 27\" iMac 5K Retina Display"],
-    "width": 5120,
-    "height": 2880,
+    "code": "HXGA",
+    "name": "Hex XGA",
+    "fullName": "Hex XGA (HXGA)",
+    "alternativeNames": [],
+    "width": 4096,
+    "height": 3072,
     "aspects": {
-      "storage": "16:9",
-      "display": "16:9",
+      "storage": "4:3",
+      "display": "4:3",
       "pixel": "1:1"
     }
   },
@@ -2435,19 +2435,6 @@
     }
   },
   {
-    "code": "HUXGA",
-    "name": "Hex UXGA",
-    "fullName": "Hex UXGA (HUXGA)",
-    "alternativeNames": [],
-    "width": 6400,
-    "height": 4800,
-    "aspects": {
-      "storage": "4:3",
-      "display": "4:3",
-      "pixel": "1:1"
-    }
-  },
-  {
     "code": "8K_UHD_2",
     "name": "8K Ultra HD 2",
     "fullName": "8K Ultra HD 2 (8K UHD-2)",
@@ -2461,15 +2448,15 @@
     }
   },
   {
-    "code": "WHUXGA",
-    "name": "Wide HUXGA",
-    "fullName": "Wide HUXGA (WHUXGA)",
+    "code": "UW10K",
+    "name": "Ultra-Wide 10K",
+    "fullName": "Ultra-Wide 10K (UW10K)",
     "alternativeNames": [],
-    "width": 7680,
-    "height": 4800,
+    "width": 10240,
+    "height": 4320,
     "aspects": {
-      "storage": "8:5",
-      "display": "8:5",
+      "storage": "21:9",
+      "display": "21:9",
       "pixel": "1:1"
     }
   },
@@ -2487,15 +2474,28 @@
     }
   },
   {
-    "code": "UW10K",
-    "name": "Ultra-Wide 10K",
-    "fullName": "Ultra-Wide 10K (UW10K)",
+    "code": "HUXGA",
+    "name": "Hex UXGA",
+    "fullName": "Hex UXGA (HUXGA)",
     "alternativeNames": [],
-    "width": 10240,
-    "height": 4320,
+    "width": 6400,
+    "height": 4800,
     "aspects": {
-      "storage": "21:9",
-      "display": "21:9",
+      "storage": "4:3",
+      "display": "4:3",
+      "pixel": "1:1"
+    }
+  },
+  {
+    "code": "WHUXGA",
+    "name": "Wide HUXGA",
+    "fullName": "Wide HUXGA (WHUXGA)",
+    "alternativeNames": [],
+    "width": 7680,
+    "height": 4800,
+    "aspects": {
+      "storage": "8:5",
+      "display": "8:5",
       "pixel": "1:1"
     }
   },
