@@ -2053,6 +2053,19 @@
     }
   },
   {
+    "code": "2_7K",
+    "name": "2.7K",
+    "fullName": "2.7K",
+    "alternativeNames": [],
+    "width": 2704,
+    "height": 1520,
+    "aspects": {
+      "storage": "169:95",
+      "display": "169:95",
+      "pixel": "1:1"
+    }
+  },
+  {
     "code": "QXGA",
     "name": "Quad XGA",
     "fullName": "Quad XGA (QXGA)",

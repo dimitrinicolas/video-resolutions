@@ -1,6 +1,10 @@
 # Change Log
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.3.0 - 2018-08-30
+### Added
+- 2.7K resolution.
+
 ## 1.2.3 - 2018-08-27
 ### Removed
 - Debug code.

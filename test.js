@@ -2,7 +2,7 @@ import test from 'ava';
 
 import resolutions from '.';
 
-const FORMAT_COUNTS = 183;
+const FORMAT_COUNTS = 184;
 
 /* List */
 

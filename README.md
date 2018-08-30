@@ -46,7 +46,7 @@ This package export this list of classes and functions:
 
 - `Aspect` - A class representing an aspect-ratio
 - [`Format`](#format) - A class representing an image format
-- [`getList`](#getlist) - Get the list of the 183 formats
+- [`getList`](#getlist) - Get the list of the 184 formats
 - [`getAll`](#getallquery) - Get a list of formats matching a query object (eg. 
 a width)
 - [`getOne`](#getonequery-opts) - Returns the best result of `getAll` or create 
@@ -102,7 +102,7 @@ resolutions.getList();
     },
     score: 20.509185851025467
   },
-  /* 182 other items */
+  /* 183 other items */
 ]
 ```
 
