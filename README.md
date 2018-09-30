@@ -1,6 +1,6 @@
 # video-resolutions [![Build Status][travis badge]][travis link] [![Coverage Status][coveralls badge]][coveralls link]
 
-The data come from this Wikipedia page: 
+The data comes from this Wikipedia page: 
 [en.wikipedia.org/wiki/List_of_common_resolutions][wikipedia]
 
 ## Example
@@ -86,21 +86,18 @@ import resolutions from 'video-resolutions';
 resolutions.getList();
 /* returns: */
 [
-  {
-    format: Format {
-      code: null,
-      name: null,
-      fullName: null,
-      alternativeNames: [ 'Microvision' ],
-      width: 16,
-      height: 16,
-      aspects: {
-        storage: Aspect { string: '1:1', float: 1 },
-        display: Aspect { string: '1:1', float: 1 },
-        pixel: Aspect { string: '1:1', float: 1 }
-      }
-    },
-    score: 20.509185851025467
+  Format {
+    code: null,
+    name: null,
+    fullName: null,
+    alternativeNames: [ 'Microvision' ],
+    width: 16,
+    height: 16,
+    aspects: {
+      storage: Aspect { string: '1:1', float: 1 },
+      display: Aspect { string: '1:1', float: 1 },
+      pixel: Aspect { string: '1:1', float: 1 }
+    }
   },
   /* 183 other items */
 ]
